@@ -1,9 +1,8 @@
 <template>
     <v-card>
-        <!-- TODO : 색상 적용 필요 -->
+        <!-- QUESTION : 2021-03-10  name of color is not working, but css color is ok...? -->
         <v-toolbar
-            color="cyan"
-            flat
+            color="#26C6DA"
         >
             <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
