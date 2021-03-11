@@ -46,6 +46,14 @@
                 </v-card>
             </v-tab-item>
         </v-tabs-items>
+
+        <!-- TODO : 2021-03-12  icon that is clicked is not highlighted -->
+        <div class="text-center">
+            <v-pagination
+                v-model="page"
+                :length="6"
+            ></v-pagination>
+        </div>
     </v-card>
 </template>
 
@@ -57,7 +65,8 @@ export default {
             items: [
                 'A', 'B', 'C'
             ],
-            text: 'test'
+            text: 'test',
+            page: 1
         }
     }
 }
